@@ -356,7 +356,7 @@ flex-wrap: wrap;
   height: 50vh;
   background-size: cover;
   background-position: center;
-  padding: 20px; 
+  padding: 30px; 
   box-sizing: border-box;
   margin: 0 15px; /* Add margin to each banner-box to create space */
 }
@@ -391,9 +391,31 @@ flex-wrap: wrap;
 }
 
 
-#banner3 {
+#banner3 .banner-box{
   display: flex;
-  justify-content: space-between; /* Align boxes to the right */
-  flex-wrap: wrap;
-  padding: 0 80px; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("C:/Users/NAGA BANDARU/OneDrive/Desktop/silk tr stff/wedding sale.jpg");
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+
+}
+
+#banner3 h2{
+  color: #fff;
+  font-weight: 900;
+  font-size: 22px;
+
+}
+
+#banner3 h3{
+  color: #088178;
+  font-weight: 800;
+  font-size: 15px;
+  
 }
